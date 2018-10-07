@@ -10,7 +10,7 @@ def ipInformation(command):
 	result = ""
 	for i in parsing.readlines():
 		result += i
-	return str(b)
+	return str(result)
 
 def run(**args):
 	if "windows" in str(platform_information).lower():
