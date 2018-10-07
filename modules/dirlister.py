@@ -3,7 +3,7 @@
 import os
 
 def run(**args):
-	print "[*] In dirlistermodule."
+	#print "[*] In dirlistermodule."
 	files = os.listdir(".")
 
 	return str(files)
