@@ -79,4 +79,3 @@ def run(**args):
 
 	pythoncom.PumpMessages()
 
-	return
