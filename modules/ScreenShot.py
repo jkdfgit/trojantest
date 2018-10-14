@@ -13,7 +13,7 @@ def getScreenshot():
 	top = win32api.GetSystemMetrics(win32con.SM_YVIRTUALSCREEN)
 
 	hDC = win32gui.GetWindowDC(hwnd)
-	pDC = win32ui.CreateCompatibleDC()
+	pDC = win32ui.CreateDCFromHandle(hDC)
 	memDC = pDC.CreateCompatibleDC()
 
 	screenshot = win32ui.CreateBitmap()
