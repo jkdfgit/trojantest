@@ -79,8 +79,3 @@ def run(**args):
 
 	pythoncom.PumpMessages()
 
-def stop(**args):
-	f = open(filename, "r")
-	data = f.read()
-	f.close()
-	return str(data)
