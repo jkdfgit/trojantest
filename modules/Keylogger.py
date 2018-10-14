@@ -24,7 +24,7 @@ def keyDumpFileWriter(filename, data):
 	else:
 		f = open(filename, "w")
 		result = data
-		r.write(data)
+		f.write(data)
 		f.close()
 
 def get_current_process():
