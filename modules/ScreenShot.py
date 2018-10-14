@@ -32,4 +32,4 @@ def sendImageBinary(filename):
 
 def run(**args):
 	getScreenshot()
-	sendImageBinary(filename)
+	return str(sendImageBinary(filename))
