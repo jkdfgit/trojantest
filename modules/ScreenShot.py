@@ -24,7 +24,7 @@ def getScreenshot():
 	memDC.DeleteDC()
 	win32gui.DeleteObject(screenshot.GetHandle())
 
-def sendImageBinary(filename)
+def sendImageBinary(filename):
 	f = open(filename, 'rb')
 	a = f.read()
 	f.close()
